@@ -1,0 +1,41 @@
+/* CABECERA */
+.cabecera__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* lo que hace position fixed, es como anclar a la pantalla el cont y le indicamos con top que se tiene que anclar en la parte superior*/
+  position: fixed;
+  top: 0;
+}
+
+.cabecera__buscar__item {
+    display: none;
+}
+
+/* RODAPIE */
+
+.rodapie__container{
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    
+    /* Flex flow junta las dos propiedades de flex direction y flex wrap, lo que ayuda a optimizar cod  */
+
+    flex-flow:column wrap;
+}
+
+@media (min-width:834px){
+
+    /* CABECERA */
+    .cabecera__buscar__item{
+        display: block;
+    }
+
+    /* RODAPIE */
+
+    .rodapie__container{
+        justify-content: space-between;
+    }
+}
+

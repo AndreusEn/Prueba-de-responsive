@@ -1,0 +1,1 @@
+"# INGRESO DE ESTILO DE MENU,  uso de la propiedad nth-child que me aydua a seleccionar elementos que llevan el mismo nombre pero con la ubicacion exacta y poder hacerle cambios especificos a esos mismos,  el cambio a la parte de la seccion superior (abajo de la barra de buscar )"
